@@ -1,13 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	font-family:Verdana;
-	color:darkblue;
-	background-color:#e5e5e5;
-	
-	}
-
 @media only screen and (max-width:599px) {
    .middle, .side {
     width:100%;
@@ -17,6 +10,12 @@ body{
 	}
 }
 
+body{
+	font-family:Verdana;
+	color:darkblue;
+	background-color:#e5e5e5;
+	
+	}
 .header{
 	background-color:gold;
 	padding:15px;
@@ -26,6 +25,9 @@ body{
 table{
 	table-layout: fixed;
 	width:100%;
+	text-align: center;
+	color:black;
+	font-weight: bold;
 }
 
 * {
@@ -35,6 +37,7 @@ table{
   float:left;
   width:20%;
   text-align:center;
+  
 }
 .navigation a {
   background-color:brown;
@@ -43,6 +46,7 @@ table{
   display:block;
   width:100%;
   color:black;
+  height: 40px;
  }
 .middle {
   float:left;
