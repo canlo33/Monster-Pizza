@@ -50,8 +50,12 @@ table{
   padding:0 20px;
   text-align:left;
 }
-
-
+.middle fieldset{
+	text-align: center;
+}
+.middle fieldset legend{
+	color: blue;
+}
 .side {
   background-color:#e5e5e5;
   float:left;
