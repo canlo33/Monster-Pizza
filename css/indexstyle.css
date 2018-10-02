@@ -4,6 +4,8 @@
 body{
 	font-family:Verdana;
 	color:darkblue;
+	background-color:#e5e5e5;
+	
 	}
 .header{
 	background-color:gold;
@@ -19,26 +21,26 @@ table{
 
 * {
   box-sizing: border-box;
-}
+} 
 .navigation {
   float:left;
   width:20%;
   text-align:center;
 }
 .navigation a {
-  background-color:#e5e5e5;
+  background-color:brown;
   padding:8px;
   margin-top:7px;
   display:block;
   width:100%;
   color:black;
-}
+ }
 .middle {
   float:left;
   width:60%;
   padding:0 20px;
   text-align:left;
-}
+} 
 .side {
   background-color:#e5e5e5;
   float:left;
@@ -47,8 +49,12 @@ table{
   margin-top:7px;
   text-align:left;
 }
+.side h4{
+	text-align: center;
+}
+
 .copyright{
-	background-color:#e5e5e5;
+	background-color:gold;
 	text-align:center;
 	padding:10px;
 	margin-top:7px
@@ -62,6 +68,8 @@ table{
     color:#e5e5e5;
     padding: 9px 23px;
     cursor: pointer;
+	width: 50%;
+	height: 100px;
     
 }
 
