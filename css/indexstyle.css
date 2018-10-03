@@ -5,15 +5,42 @@ body{
 	font-family:Verdana;
 	color:darkblue;
 	background-color:#e5e5e5;
-	
+	font-size:1.2vw;
 	}
 
-@media only screen and (max-width:599px) {
-   .middle, .side {
+@media only screen and (max-width:799px) {
+  
+	.middle, .side {
     width:100%;
   }
 	.navigation {
 		display: none;
+	}
+	.middle .mr{
+	display: none;	
+	}
+	.header{
+	display: none;		
+	}
+	.side{
+		padding: 1px;
+	}
+
+}
+@media only screen and (min-width:800px)and (max-width:1000) {
+  
+	.middle, .side {
+    width:100%;
+  }
+
+	.middle .mr{
+	display: none;	
+	}
+	.header{
+	display: none;		
+	}
+	.buttons button{
+	height: 50px;
 	}
 }
 
@@ -80,7 +107,7 @@ table{
     padding: 9px 23px;
     cursor: pointer;
 	width: 50%;
-	height: 100px;
+	
     
 }
 
