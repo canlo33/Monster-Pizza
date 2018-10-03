@@ -2,7 +2,7 @@
 
 function PizzaCalculate() {
 	var totalprice;
-	var toppings="";
+	var toppings;
 	var form1 = document.getElementsByClassName("form1");
 	var form2 = document.getElementsByClassName("form2");
 	var form3 = document.getElementsByClassName("form3");
